@@ -8,7 +8,7 @@ import Picture6 from "../../assets/imgDesigns/picture6.jpeg";
 import Picture7 from "../../assets/imgDesigns/picture7.jpeg";
 import Picture8 from "../../assets/imgDesigns/picture8.jpeg";
 
-const Carousel = () => {
+const DesignCarousel = () => {
   const [currentPage, setCurrentPage] = useState(0);
   const itemsPerPage = 4;
 
@@ -46,7 +46,11 @@ const Carousel = () => {
           .slice(currentPage * itemsPerPage, (currentPage + 1) * itemsPerPage)
           .map((picture) => (
             <div className="foto" key={picture.id}>
-              <img src={picture.src} alt={picture.alt} />
+              <img
+                src={picture.src}
+                alt={picture.alt}
+                className="carousel-image"
+              />
             </div>
           ))}
       </div>
@@ -64,4 +68,4 @@ const Carousel = () => {
   );
 };
 
-export default Carousel;
+export default DesignCarousel;

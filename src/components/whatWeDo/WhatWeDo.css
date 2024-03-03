@@ -35,7 +35,7 @@
    margin: auto;
  }
 
- @media screen and (min-width: 600px) {
+ @media screen and (min-width: 400px) {
    .feed {
      grid-template-columns: repeat(auto-fit, minmax(45%, 1fr));
    }
@@ -43,6 +43,7 @@
 
  .feed .foto {
    width: 100%;
+   transition: opacity 0.5s ease-in-out;
  }
 
  .feed .foto img {

@@ -1,7 +1,7 @@
 import "./Header.css";
-
 import logo from "../../assets/logo.svg";
 import logoInstagram from "../../assets/logoInstagram.svg";
+
 const Header = () => {
   return (
     <div className="section1">

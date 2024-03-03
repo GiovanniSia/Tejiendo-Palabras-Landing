@@ -1,8 +1,10 @@
 import "./App.css";
+import WhatWeDo from "./components/whatWeDo/WhatWeDo";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 import Header from "./components/header/Header";
-import MainContent from "./components/mainContent/MainContent";
+import DesignCarousel from "./components/designCarousel/DesignCarousel";
+import Separator from "./global/Separator";
 
 function App() {
   return (
@@ -10,8 +12,13 @@ function App() {
       <div className="containerMain">
         <Header />
         <main>
-          <MainContent />
+          <Separator />
+          <WhatWeDo />
+          <Separator />
+          <DesignCarousel />
+          <Separator />
           <Contact />
+          <Separator />
         </main>
         <Footer />
       </div>
