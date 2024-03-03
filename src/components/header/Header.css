@@ -37,6 +37,19 @@
   margin: auto;
 }
 
+.navbar a,
+.portada button {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+/*  */
+.navbar a:hover,
+.portada button:hover {
+  transform: scale(1.1);
+  color: var(--hover-color);
+}
+
 .portada {
   display: flex;
   flex-direction: column;
