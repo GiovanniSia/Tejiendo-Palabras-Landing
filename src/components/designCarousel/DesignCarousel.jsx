@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { designCrochet } from "../../service/imageLoader";
+import "./DesignCarousel.css";
 
 const DesignCarousel = () => {
   const [currentPage, setCurrentPage] = useState(0);
