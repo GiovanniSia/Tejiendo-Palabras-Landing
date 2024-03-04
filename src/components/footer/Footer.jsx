@@ -7,17 +7,19 @@ const Footer = () => {
       <div className="contact-footer">
         <h1>Contacto</h1>
         <div>
-          <a href="">
+          <a href="https://www.instagram.com/tejiendo__palabras/">
             <img className="img-footer" src={ImgLogoInstagram} alt="" />
           </a>
-          <a href="">
+          <a href="https://api.whatsapp.com/send?phone=573214833948">
             <img className="img-footer" src={ImgLogoWhatsapp} alt="" />
           </a>
         </div>
       </div>
       <div className="by-footer">
         <p className="text-footer">
-          Hecho por &lt; <a href="">Your Software</a> &gt;
+          Hecho por &lt;{" "}
+          <a href="https://giovannisia.github.io/portfolio/">Your Software</a>{" "}
+          &gt;
         </p>
       </div>
     </div>

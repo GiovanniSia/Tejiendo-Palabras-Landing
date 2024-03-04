@@ -9,7 +9,7 @@
    flex: 1;
    display: flex;
    flex-direction: column;
-   padding: 5px;
+   padding: 10px;
  }
 
  .contact-footer h1 {
@@ -33,7 +33,8 @@
  .by-footer {
    display: flex;
    justify-content: center;
-   align-items: end;
+   align-items: center;
+   padding-right: 10px;
  }
 
  .by-footer p a {

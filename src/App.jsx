@@ -18,7 +18,6 @@ function App() {
           <DesignCarousel />
           <Separator />
           <Contact />
-          <Separator />
         </main>
         <Footer />
       </div>

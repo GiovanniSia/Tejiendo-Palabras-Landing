@@ -57,7 +57,7 @@
   align-items: center;
   gap: 20px;
   height: 88%;
-  padding: 0 50px;
+  padding: 0 40px;
 }
 
 .logo {
@@ -134,5 +134,9 @@
 
   .navbar a {
     padding: 5px;
+  }
+
+  .portada {
+    padding: 10px;
   }
 }

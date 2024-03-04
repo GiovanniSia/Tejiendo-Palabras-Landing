@@ -18,7 +18,12 @@ const Header = () => {
       <div className="portada">
         <img src={logo} alt="Logo" className="logo" />
         <p>¡Tejidos Creativos y Personalizados: Crochet, Macramé y Letras</p>
-        <button>
+        <button
+          onClick={() =>
+            (window.location.href =
+              "https://www.instagram.com/tejiendo__palabras/")
+          }
+        >
           Contactanos{" "}
           <img
             src={logoInstagram}
