@@ -4,15 +4,15 @@ import logoInstagram from "../../assets/logoInstagram.svg";
 
 const Header = () => {
   return (
-    <div className="section1">
+    <div id="inicio" className="section1">
       <div className="container-send-colombia">
         <p>📍Envios nacionales - Colombia📍</p>
       </div>
       <div className="containerNavbar">
         <nav className="navbar">
-          <a>Inicio</a>
-          <a>Diseños</a>
-          <a>Sobre Nosotros</a>
+          <a href="#inicio">Inicio</a>
+          <a href="#designInstagram">Diseños</a>
+          <a href="#contacto">Sobre Nosotros</a>
         </nav>
       </div>
       <div className="portada">

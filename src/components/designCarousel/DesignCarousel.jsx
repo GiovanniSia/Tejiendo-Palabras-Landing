@@ -22,7 +22,7 @@ const DesignCarousel = () => {
   };
 
   return (
-    <div className="designInstagram">
+    <div id="designInstagram" className="designInstagram">
       <h1 className="title-general">Diseños</h1>
       <div className="feed">
         {designCrochet

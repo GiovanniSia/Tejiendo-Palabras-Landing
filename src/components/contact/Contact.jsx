@@ -4,17 +4,29 @@ import ImgLogoWhatsapp from "../../assets/logoWhatsapp.svg";
 
 const Contact = () => {
   return (
-    <div className="contact-section">
+    <div id="contacto" className="contact-section">
       <h1 className="title-general">Sobre nosotros</h1>
       <div className="contact-inside">
         <div className="contact">
           <h2>Contactanos</h2>
           <div className="contact-info">
-            <div className="contact-item">
+            <div
+              className="contact-item"
+              onClick={() =>
+                (window.location.href =
+                  "https://www.instagram.com/tejiendo__palabras/")
+              }
+            >
               <img className="img-contact" src={ImgLogoInstagram} alt="" />
               <span>tejiendo__palabras</span>
             </div>
-            <div className="contact-item">
+            <div
+              className="contact-item"
+              onClick={() =>
+                (window.location.href =
+                  "https://api.whatsapp.com/send?phone=573214833948")
+              }
+            >
               <img className="img-contact" src={ImgLogoWhatsapp} alt="" />
               <span>+57 321 4833948</span>
             </div>

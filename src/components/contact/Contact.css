@@ -48,6 +48,10 @@
    font-size: 20px;
  }
 
+ .contact-item {
+   cursor: pointer;
+ }
+
  .delivery-item strong,
  .img-contact {
    width: 26px;

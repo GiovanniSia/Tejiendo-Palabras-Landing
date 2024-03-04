@@ -41,6 +41,9 @@
 .portada button {
   transition: all 0.3s ease;
   cursor: pointer;
+  text-decoration: none;
+  color: #fff;
+  font-size: larger;
 }
 
 /*  */
