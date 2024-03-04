@@ -24,3 +24,9 @@
     -1.5px -1.5px 0 #000,
     1.5px -1.5px 0 #000;
 }
+
+@media screen and (max-width:350px) {
+  .title-general {
+    font-size: 38px;
+  }
+}
