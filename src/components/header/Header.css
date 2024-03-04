@@ -98,13 +98,19 @@
 
 @media screen and (max-width: 397px) {
   .portada p {
-    font-size: 27px;
+    font-size: 25px;
     text-shadow:
       1px 1px 0 #fff,
       -1px 1px 0 #fff,
       -1px -1px 0 #fff,
       1px -1px 0 #fff;
   }
+
+  .navbar a,
+  .container-send-colombia p {
+    font-size: small;
+  }
+
 }
 
 .portada button {
