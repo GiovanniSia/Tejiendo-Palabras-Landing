@@ -17,7 +17,7 @@ const Header = () => {
       </div>
       <div className="portada">
         <img src={logo} alt="Logo" className="logo" />
-        <p>¡Tejidos Creativos y Personalizados: Crochet, Macramé y Letras</p>
+        <p>¡Tejidos Creativos y Personalizados! Crochet, Macramé y Letras</p>
         <button
           onClick={() =>
             (window.location.href =

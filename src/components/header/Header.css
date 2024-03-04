@@ -1,6 +1,6 @@
 .section1 {
   height: 100vh;
-  background: url("../../assets/portadaPC.jpg");
+  background: url("../../assets/portadaPC.webp");
   background-size: 1024px 175%;
   background-position: center;
   background-attachment: fixed;
@@ -83,7 +83,7 @@
 @media screen and (max-width: 625px) {
   .section1 {
     height: 100vh;
-    background: url("../../assets/portada.jpg");
+    background: url("../../assets/portada.webp");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -106,10 +106,10 @@
       1px -1px 0 #fff;
   }
 
-  .navbar a,
+  /* .navbar a,
   .container-send-colombia p {
     font-size: small;
-  }
+  } */
 
 }
 
