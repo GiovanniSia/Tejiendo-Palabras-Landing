@@ -120,3 +120,18 @@
   margin-top: 2px;
   transform: scale(1.5);
 }
+
+@media screen and (max-height:450px) {
+  .section1 {
+    height: auto;
+    background-size: 100%;
+  }
+
+  .container-send-colombia {
+    padding: 5px;
+  }
+
+  .navbar a {
+    padding: 5px;
+  }
+}
